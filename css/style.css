@@ -1,15 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #fff;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.size{
+    background-position: center;
+    background-size: cover;
+}
+
+.center{
+    justify-content: center;
+}
+
+
+.btn{
+    color: #fff;
+    background-color: #2a405e;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    background-color: #22344d;
+}
+
+/*        start        */
+
+.start{
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/6411b65e10375517ae27f4db/pexelsphoto1457842.jpg);
+}
+
+.title{
+    width: 100%;
+    height: 100%;
+    background-color: #0f0f0f2d;
+    position: relative;
+    align-items: center;
+}
+
+.title h1{
+    width: 744px;
+    font-size: 6em;
+    position: absolute;
+    font-weight: 400;
+    word-wrap: break-word;
+    color: #fff;
+    letter-spacing: 2px;
+    left: 20%
+}
+
+.title h1::after{
+    display: block;
+    content: "";
+    width: 309px;
+    height: 12px;
+    background-color: #e68c51;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+
+/*        about     company     */
+
+
+.about, .img-section{
+    width: 100%;
+    height: 45vh;
+    color: #ffffffee;
+    background-color: #292d33;
+    align-items: center;
+}
+
+.about-text, .image{
+    width: calc(273px - 28px);
+    height: calc(340px - 28px);
+    box-sizing: border-box;
+    margin: 30px;
+}
+
+.about-text{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+.about-text p{
+    padding-top: 20px;
+    width: 100%;
+    margin: 0;
+}
+
+.about-text a{
+    color: #000;
+    background-color: #fff;
+    position: relative;
+    top: 30px;
+}
 
 
 
+.about-text a:hover{
+    background-color: #ffffffee;
+}
+
+.about-title, .image-text, .w-50-3{
+    border: 14px solid #e68c51;
+    align-items: center;
+    width: 270px;
+}
+
+h2{
+    display: inline;
+    font-weight: 500;
+    width: 80%;
+    font-size: 38px;
+}
+
+/*        about     Designers     */
+
+.designers{
+    width: 100%;
+    height: 60vh;
+}
+
+.img-section{
+    background-color: #ffffff00;
+}
+
+.image{
+    width: 273px;
+    height: 340px;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.img1{
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/a299793d3a0657efa809d998/findshot_61832861200x1800.jpg);
+}
+
+.img2{
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/332c87b536cc5ebbbfc9eae5/findshot_74285711200x1800.jpg);
+}
+
+.img3{
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/770d8d5284d956f39a6e5420/findshot_43939821200x1800.jpg);
+}
+
+.image-text{
+    color: black;
+    font-size: 38px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-designers{
+    padding: 20px 0;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.about-designers p{
+    width: 53%;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 500;
+}
+
+.about-designers p, .about-designers a,.footer-follow h3,.footer-follow p,.footer-follow a,.footer-contact p, .footer-contact h3{
+    margin: 0 35px;
+}
+
+/*       Latest  Projects      */
+
+.Latest-Projects{
+    width: 66%;
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+    flex-wrap: wrap;
+    top: 100px;
+}
+
+.w-50{
+    width: calc(50% - 20px);
+    margin: 10px;
+    height: 400px;
+}
+
+.w-25{
+    width: calc(25% - 20px);
+    margin: 10px;
+    height: 400px;
+}
+
+.up, .down{
+    width: 100%;
+    height: calc(50% - 5px);
+}
+
+.up{
+    margin-bottom: 10px;
+}
+    
+.w-50-1{
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/1987dae7eb2857beb0909759/pexelsphoto1439712.jpeg);
+}
+
+.w-50-2{
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/b08d46399bd15e59809673d0/pexelsphoto439227.jpeg);
+}
+
+.up{
+    margin-bottom: 10px;
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/25211a752d24535daa894edf/pexelsphoto1421177.jpeg);
+}
+
+.down{
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/e3698bfdc40b59b8b2e569ef/pexelsphoto276700.jpeg);
+}
+
+.w-25-2{
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/29662f24d0d553828aecfe8d/pexelsphoto273669.jpeg);
+}
+
+.w-50-3{
+    width: calc(50% - 48px);
+    height: calc(400px - 28px);
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.w-50-3 h2{
+    width: 100%;
+}
+
+.w-50-3 p{
+    width: 80%;
+    margin: 30px 0;
+}
+
+.w-50-3 h2, .w-50-3 p, .project-btn{
+    margin-left:50px ;
+}
+
+/*       bertie  &  mike       */
+
+.bertie-mike{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-color: #292d33;
+    top: 150px;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 440px;
+    text-align: center;
+    flex-direction: column ;
+    color: #fff;
+    padding: 100px 50px;
+}
+
+.container p{
+    line-height: 30px;
+    font-size: 16px;
+    margin: 30px 0;
+}
+
+.container h3{
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.container h3::after{
+    content: "";
+    width: 170px;
+    height: 12px;
+    background-color: #e68c51;
+    display: block;
+    margin-left: 135px;
+    margin-top: 10px;
+}
+
+.b-m{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #e68c51;
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bertie-img{
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/d377377d6117588282d9ce90/desktopimgwomanindexpufferd.st.jpg);
+}
+
+.mike-img{
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/96a62eaa4306549e859c6a53/desktopeveningimgd.st.jpg);
+}
+
+.bertie-mike-img{
+    width: 100%;
+    height: 200px;
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/c757c5af88c65325acc9e3b7/pexelsphoto1439712.jpeg);
+}
+
+/*     footer    */
 
 
+.footer{
+    width:100%;
+    height: 40vh;
+    position: relative;
+    top: 253px;
+    align-items: center;
+    padding: 0 0 50px 0;
+}
+
+.footer-contact, .footer-follow{
+    width: 450px;
+    height: 250px;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.footer-contact p, .footer-follow p{
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.footer-follow{
+    border: 14px solid #e68c51;
+}
+
+.footer-follow h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.footer-follow p{
+    width:80% ;
+}
+
+.footer-follow a{
+    width: 55px;
+    padding: 15px 34px;
+}
 
 
+@media (max-width: 1280px){
+    .footer{
+        top: 230px;
+    }
 
+    .bertie-mike{
+        height: auto;
+    }
 
+    .Latest-Projects{
+        width: 100%;
+    }
 
+    .about-text p{
+        padding-top:0 ;
+    }
 
+    .about{
+        height: 55vh;
+        justify-content: space-around;
+    }
 
+    .title h1{
+        left: 10%;
+    }
+}
 
+@media (max-width: 1024px)  {
+  
+   .title h1{
+       width: 500px;
+   }
+
+   .about {
+    flex-wrap: wrap;
+    height: 87vh;
+    padding-top: 50px;
+    }
+
+    .about-text a{
+        top: 60px;
+    }
+
+    .designers{
+        display: contents;
+
+    }
+
+    .img-section{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 95vh;
+    }
+
+    .w-50-3 h2, .w-50-3 p, .project-btn {
+        margin-left: 20px;
+    }
+
+    .w-50-3 h2 {
+        width: 80%;
+    }
+
+    .w-50-3 p {
+        margin: 15px 20px;
+    }
+
+    .footer-follow{
+        margin-right: 10px;
+    }
+    
+  }
+
+  @media (max-width: 767px) {
+    
+    .title h1{
+        width: 282px;
+        font-size: 4em;
+    }
+
+    .title h1::after{
+        width: 300px;
+        margin-left: 90px;
+    }
+
+    .about-designers{
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin: 20px 10%;
+    }
+
+    .about-designers p{
+        width: 100%;
+        margin: 0;
+    }
+
+    .about-designers a{
+        margin: 20px 0;
+    }
+
+    .w-50, .w-25{
+        width: 400px;
+    }
+
+    .w-50-3{
+        width: 374px;
+    }
+
+    .Latest-Projects{
+        justify-content: center;
+    }
+    
+  }
+
+  @media (max-width: 625px){
+    .about{
+        height: 170vh;
+    }
+
+    .img-section{
+        height: 200vh;
+    }
+    
+    .footer{
+        flex-direction: column;
+        height: 70vh;
+        top: 150px;
+    }
+
+    .container h3::after{
+        width: 40%;
+        margin-left: 30%;
+    }
+  } 
+
+ 
 
 
